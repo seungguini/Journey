@@ -118,16 +118,6 @@ function introSquence() {
         yoyo:true, 
         repeatDelay: 0.5}, ">1")
 
-    // hello rika!
-    .to('.hello', {
-        duration: 4, 
-        text: "hello rika <3", 
-        ease: "power4.inOut",
-        repeat: 1, 
-        yoyo:true, 
-        repeatDelay: 1
-    }, "<1")
-
     // welcome to Journey
     .to('.hello', {
         duration: 5, 
@@ -196,7 +186,7 @@ function scrollAnimate() {
 
     tl.to('.hello', {
         duration: 2, 
-        text: "you may be wondering", 
+        text: "A scrollytelling experience about me, Seunggun", 
         ease: "power4.inOut",
         repeat: 1, 
         yoyo:true, 
@@ -206,7 +196,7 @@ function scrollAnimate() {
 
     .to('.hello', {
         duration: 2, 
-        text: "what the heckie is this?", 
+        text: "GSAP makes scroll-based animations", 
         ease: "power4.inOut",
         repeat: 1, 
         yoyo:true, 
@@ -217,7 +207,7 @@ function scrollAnimate() {
 
     .to('.hello', {
         duration: 1, 
-        text: "well,", 
+        text: "incredibly easy!", 
         ease: "power4.inOut",
         repeat: 1, 
         yoyo:true, 
@@ -226,36 +216,7 @@ function scrollAnimate() {
 
     .to('.hello', {
         duration: 3, 
-        text: "for this special occasion", 
-        ease: "power4.inOut",
-        repeat: 1, 
-        yoyo:true, 
-        repeatDelay: 1
-    },">1")
-
-    .to('.hello', {
-        duration: 3, 
-        text: "i have built our own hub", 
-        ease: "power4.inOut",
-        repeat: 1, 
-        yoyo:true, 
-        repeatDelay: 1
-    },">1")
-
-    //.add(revealIMG('.hubIMG'), "<-1")
-
-    .to('.hello', {
-        duration: 2, 
-        text: "try it out!", 
-        ease: "power4.inOut",
-        repeat: 1, 
-        yoyo:true, 
-        repeatDelay: 1
-    },">1")
-
-    .to('.hello', {
-        duration: 3, 
-        text: "type & enter 'birthday'", 
+        text: "type & enter 'hello'", 
         ease: "power4.inOut",
         repeat: 1, 
         yoyo:true, 
