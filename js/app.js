@@ -186,28 +186,25 @@ function scrollAnimate() {
 
     tl.to('.hello', {
         duration: 2, 
-        text: "A scrollytelling experience about me, Seunggun", 
+        text: "An interactive story", 
         ease: "power4.inOut",
         repeat: 1, 
         yoyo:true, 
         repeatDelay: 1
     },">1")
 
-
-    .to('.hello', {
+    tl.to('.hello', {
         duration: 2, 
-        text: "GSAP makes scroll-based animations", 
+        text: "about my Journey", 
         ease: "power4.inOut",
         repeat: 1, 
         yoyo:true, 
         repeatDelay: 1
     },">1")
 
-    //.add(revealIMG(".heckieIMG"), '<-1')
-
-    .to('.hello', {
-        duration: 1, 
-        text: "incredibly easy!", 
+    tl.to('.hello', {
+        duration: 2, 
+        text: "built w/ Javascript & GSAP", 
         ease: "power4.inOut",
         repeat: 1, 
         yoyo:true, 
